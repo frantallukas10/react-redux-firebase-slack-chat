@@ -4,3 +4,4 @@
 2. Add dependencies and change setup project
 3. Setup firebase
 4. Create register form
+5. Add register user with email and password
