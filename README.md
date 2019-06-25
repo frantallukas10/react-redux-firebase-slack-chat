@@ -5,3 +5,6 @@
 3. Setup firebase
 4. Create register form
 5. Add register user with email and password
+6. Create errors upon registaration and show loading state
+7. Add name and avatar to users, add new users to database
+
