@@ -10,3 +10,4 @@
 8. Create login form and functionality
 9. Set up redux to make user data available on global state
 10. Add Spinner Component for Loading State
+11. Scaffold App Components

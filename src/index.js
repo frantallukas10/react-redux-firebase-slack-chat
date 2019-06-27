@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import Login from './components/Auth/Login';
@@ -19,7 +19,7 @@ import { setUser } from './actions';
 
 const store = createStore(rootReducer, composeWithDevTools());
 
-class Root extends React.Component {
+class Root extends Component {
   componentDidMount() {
 		// console.log(this.props.isLoading); // visible when the components mounted 
     firebase.auth().onAuthStateChanged(user => {
