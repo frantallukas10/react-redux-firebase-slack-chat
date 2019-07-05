@@ -14,3 +14,4 @@
 12. App Header / UserPanel Dropdown
 13. Add signout functionality, clear user action
 14. Passing Redux state via props
+15. Add Avatar to User Dropdown
