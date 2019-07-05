@@ -15,3 +15,4 @@
 13. Add signout functionality, clear user action
 14. Passing Redux state via props
 15. Add Avatar to User Dropdown
+16. Add Channels Component
