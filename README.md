@@ -19,3 +19,4 @@
 17. Create Modal for Adding Channels
 18. Create Channels Collection, Add First Channel to
     Database
+19. Display Channels with child_added Listener
