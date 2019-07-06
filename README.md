@@ -20,3 +20,4 @@
 18. Create Channels Collection, Add First Channel to
     Database
 19. Display Channels with child_added Listener
+20. Put Channel on Global State, Add channel_reducer
