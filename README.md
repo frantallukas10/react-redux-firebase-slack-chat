@@ -16,3 +16,4 @@
 14. Passing Redux state via props
 15. Add Avatar to User Dropdown
 16. Add Channels Component
+17. Create Modal for Adding Channels
