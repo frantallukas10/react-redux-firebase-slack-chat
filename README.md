@@ -23,3 +23,5 @@
 20. Put Channel on Global State, Add channel_reducer
 21. Set First Channel on Page Load, Show Active Channel
 22. Remove Listeners with componentWillUnmount
+23. Scaffold ColorPanel / Message Components
+24. Create Messages Collection, Add First Message to Database
