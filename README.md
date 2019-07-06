@@ -17,3 +17,5 @@
 15. Add Avatar to User Dropdown
 16. Add Channels Component
 17. Create Modal for Adding Channels
+18. Create Channels Collection, Add First Channel to
+    Database
