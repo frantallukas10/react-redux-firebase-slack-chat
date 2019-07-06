@@ -22,3 +22,4 @@
 19. Display Channels with child_added Listener
 20. Put Channel on Global State, Add channel_reducer
 21. Set First Channel on Page Load, Show Active Channel
+22. Remove Listeners with componentWillUnmount
