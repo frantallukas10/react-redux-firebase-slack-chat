@@ -25,3 +25,4 @@
 22. Remove Listeners with componentWillUnmount
 23. Scaffold ColorPanel / Message Components
 24. Create Messages Collection, Add First Message to Database
+25. Controlled Input to Clear Message, Disable Button onLoading State
