@@ -17,8 +17,7 @@
 15. Add Avatar to User Dropdown
 16. Add Channels Component
 17. Create Modal for Adding Channels
-18. Create Channels Collection, Add First Channel to
-    Database
+18. Create Channels Collection, Add First Channel to Database
 19. Display Channels with child_added Listener
 20. Put Channel on Global State, Add channel_reducer
 21. Set First Channel on Page Load, Show Active Channel
@@ -27,3 +26,4 @@
 24. Create Messages Collection, Add First Message to Database
 25. Controlled Input to Clear Message, Disable Button onLoading State
 26. Display Messages, Create Message Component
+27. Create File Modal to Upload File
