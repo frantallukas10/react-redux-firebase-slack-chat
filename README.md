@@ -28,3 +28,4 @@
 26. Display Messages, Create Message Component
 27. Create File Modal to Upload File
 28. Put Media File in State, Add Mimetype Validation
+29. Upload Image File, Post Image Message
