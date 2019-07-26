@@ -55,12 +55,13 @@ export class Messages extends Component {
     return (
       <>
         <MessagesHeader />
+
         <Segment>
           <Comment.Group className="messages">
-            {/* Messages */}
             {this.displayMessages(messages)}
           </Comment.Group>
         </Segment>
+
         <MessageForm
           messagesRef={messagesRef}
           currentChannel={channel}

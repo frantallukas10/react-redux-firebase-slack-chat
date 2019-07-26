@@ -30,3 +30,4 @@
 28. Put Media File in State, Add Mimetype Validation
 29. Upload Image File, Post Image Message
 30. ProgressBar Component to Represent Image Upload
+31. Options for Displaying ProgressBar

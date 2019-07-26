@@ -21,6 +21,7 @@ export class MessageForm extends Component {
   };
 
   openModal = () => this.setState({ modal: true });
+
   closeModal = () => this.setState({ modal: false });
 
   handleChange = event => {
@@ -125,7 +126,7 @@ export class MessageForm extends Component {
       .push()
       .set(this.createMessage(fileUrl))
       .then(() => {
-        this.setState({ uploadState: 'done ' });
+        this.setState({ uploadState: 'done' });
       })
       .catch(err => {
         console.error(err);
