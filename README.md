@@ -35,3 +35,4 @@
 33. Add Ability to Search Messages
 34. Create DirectMessages Component
 35. Add Users to DirectMessages Component, Show If Online/Offline
+36. Put DirectMessage Channel Data in Global State, Set as Private Channels
