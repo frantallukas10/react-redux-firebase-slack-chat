@@ -31,3 +31,4 @@
 29. Upload Image File, Post Image Message
 30. ProgressBar Component to Represent Image Upload
 31. Options for Displaying ProgressBar
+32. Add Channel Title / Users Count to Messages Header
