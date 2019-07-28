@@ -34,3 +34,4 @@
 32. Add Channel Title / Users Count to Messages Header
 33. Add Ability to Search Messages
 34. Create DirectMessages Component
+35. Add Users to DirectMessages Component, Show If Online/Offline
