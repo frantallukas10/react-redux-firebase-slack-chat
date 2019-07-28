@@ -36,3 +36,4 @@
 34. Create DirectMessages Component
 35. Add Users to DirectMessages Component, Show If Online/Offline
 36. Put DirectMessage Channel Data in Global State, Set as Private Channels
+37. Functionality to Add Messages / Images to Private Channels
