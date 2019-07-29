@@ -38,3 +38,4 @@
 36. Put DirectMessage Channel Data in Global State, Set as Private Channels
 37. Functionality to Add Messages / Images to Private Channels
 38. Display Active DirectMessage Channel
+39. Add Notifications to Public Channel
