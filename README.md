@@ -44,3 +44,4 @@
 42. Display Starred Channels in Starred Component
 43. Scaffold MetaPanel Component
 44. Display Channel Info in MetaPanel
+45. Display Top Posters for each Channel in MetaPanel
