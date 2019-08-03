@@ -39,3 +39,4 @@
 37. Functionality to Add Messages / Images to Private Channels
 38. Display Active DirectMessage Channel
 39. Add Notifications to Public Channel
+40. Add Starred Component to Hold Starred (Favorited) Channels
