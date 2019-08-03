@@ -43,3 +43,4 @@
 41. Update 'Starred' Property for User Data Upon Starring Channel
 42. Display Starred Channels in Starred Component
 43. Scaffold MetaPanel Component
+44. Display Channel Info in MetaPanel
