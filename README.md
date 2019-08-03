@@ -42,3 +42,4 @@
 40. Add Starred Component to Hold Starred (Favorited) Channels
 41. Update 'Starred' Property for User Data Upon Starring Channel
 42. Display Starred Channels in Starred Component
+43. Scaffold MetaPanel Component
