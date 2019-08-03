@@ -110,7 +110,7 @@ export class Channels extends Component {
       id: key,
       name: channelName,
       details: channelDetails,
-      createBy: {
+      createdBy: {
         name: user.displayName,
         avatar: user.photoURL
       }
