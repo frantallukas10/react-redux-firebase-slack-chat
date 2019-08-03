@@ -41,3 +41,4 @@
 39. Add Notifications to Public Channel
 40. Add Starred Component to Hold Starred (Favorited) Channels
 41. Update 'Starred' Property for User Data Upon Starring Channel
+42. Display Starred Channels in Starred Component
