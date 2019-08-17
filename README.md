@@ -45,3 +45,4 @@
 43. Scaffold MetaPanel Component
 44. Display Channel Info in MetaPanel
 45. Display Top Posters for each Channel in MetaPanel
+46. Add Color Picker Modal to ColorPanel
