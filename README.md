@@ -47,3 +47,4 @@
 45. Display Top Posters for each Channel in MetaPanel
 46. Add Color Picker Modal to ColorPanel
 47. Attach Chosen Colors to User Data
+48. Display Saved User Colors as Icons, Change App Colors on Click
