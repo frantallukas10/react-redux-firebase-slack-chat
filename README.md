@@ -60,3 +60,4 @@
 58. Create Key Combo Shortcuts to Send Messages
 59. Remove Listeners upon Component Unmount
 60. Write Firebase Storage Rules for Media Files
+61. Write Database Rules for App Data
