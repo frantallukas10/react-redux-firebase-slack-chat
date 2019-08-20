@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import uuidv4 from 'uuid/v4';
 import firebase from '../../firebase';
 import { Segment, Button, Input } from 'semantic-ui-react';
+import { Picker, emojiIndex } from 'emoji-mart';
+import 'emoji-mart/css/emoji-mart.css';
 
 import FileModal from './FileModal';
 import ProgressBar from './ProgressBar';
@@ -18,7 +20,8 @@ export class MessageForm extends Component {
     user: this.props.currentUser,
     loading: false,
     errors: [],
-    modal: false
+    modal: false,
+    emojiPicker: false
   };
 
   openModal = () => this.setState({ modal: true });
@@ -43,6 +46,31 @@ export class MessageForm extends Component {
         .child(user.uid)
         .remove();
     }
+  };
+
+  handleTogglePicker = () => {
+    this.setState({ emojiPicker: !this.state.emojiPicker });
+  };
+
+  handleAddEmoji = emoji => {
+    const oldMessage = this.state.message;
+    const newMessage = this.colonToUnicode(` ${oldMessage} ${emoji.colons} `);
+    this.setState({ message: newMessage, emojiPicker: false });
+  };
+
+  colonToUnicode = message => {
+    return message.replace(/:[A-Za-z0-9_+-]+:/g, x => {
+      x = x.replace(/:/g, '');
+      let emoji = emojiIndex.emojis[x];
+      if (typeof emoji !== 'undefined') {
+        let unicode = emoji.native;
+        if (typeof unicode !== 'undefined') {
+          return unicode;
+        }
+      }
+      x = ':' + x + ':';
+      return x;
+    });
   };
 
   createMessage = (fileUrl = null) => {
@@ -172,11 +200,21 @@ export class MessageForm extends Component {
       loading,
       modal,
       uploadState,
-      percentUploaded
+      percentUploaded,
+      emojiPicker
     } = this.state;
 
     return (
       <Segment className="message__form">
+        {emojiPicker && (
+          <Picker
+            set="apple"
+            onSelect={this.handleAddEmoji}
+            className="emojipicker"
+            title="Pick your emoji"
+            emoji="point_up"
+          />
+        )}
         <Input
           fluid
           name="message"
@@ -184,7 +222,7 @@ export class MessageForm extends Component {
           onKeyDown={this.handleKeyDown}
           value={message}
           style={{ marginBottom: '0.7em' }}
-          label={<Button icon={'add'} />}
+          label={<Button icon={'add'} onClick={this.handleTogglePicker} />}
           labelPosition="left"
           className={
             errors.some(error => error.message.includes('message'))

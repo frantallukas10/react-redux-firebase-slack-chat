@@ -54,5 +54,6 @@
 52. Add Typing Collection to Track When Other Users Typing
 53. Add Typing Component / Animation, Display in Messages
 54. Add Typing Listeners to See When Other Users Typing
+55. Emoji Picker to Add Emojis to Messages
 
 
