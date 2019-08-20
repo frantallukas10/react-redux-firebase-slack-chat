@@ -20,14 +20,14 @@ export class DirectMessages extends Component {
     }
   }
 
-  componentWillMount() {
+  componentWillUnmount() {
     this.removeListeners();
   }
 
   removeListeners = () => {
     this.state.usersRef.off();
-    this.state.connectedRef.off();
     this.state.presenceRef.off();
+    this.state.connectedRef.off();
   };
 
   addListeners = currentUserUid => {

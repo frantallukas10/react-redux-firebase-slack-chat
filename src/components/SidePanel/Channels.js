@@ -32,9 +32,16 @@ export class Channels extends Component {
     this.addListeners();
   }
 
-  componentWillMount() {
+  componentWillUnmount() {
     this.removeListeners();
   }
+
+  removeListeners = () => {
+    this.state.channelsRef.off();
+    this.state.channels.forEach(channel => {
+      this.state.messagesRef.child(channel.id).off();
+    });
+  };
 
   addListeners = () => {
     let loadedChannels = [];
@@ -85,11 +92,6 @@ export class Channels extends Component {
     }
 
     this.setState({ notifications });
-  };
-
-  removeListeners = () => {
-    this.state.channelsRef.off();
-    this.state.messagesRef.off();
   };
 
   setFirstChannel = () => {

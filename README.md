@@ -58,3 +58,4 @@
 56. Automatic Scroll to Bottom upon New Message
 57. Show Message Skeleton when Messages Loading
 58. Create Key Combo Shortcuts to Send Messages
+59. Remove Listeners upon Component Unmount
