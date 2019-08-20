@@ -56,5 +56,6 @@
 54. Add Typing Listeners to See When Other Users Typing
 55. Emoji Picker to Add Emojis to Messages
 56. Automatic Scroll to Bottom upon New Message
+57. Show Message Skeleton when Messages Loading
 
 
