@@ -53,4 +53,6 @@
 51. Upload Cropped Image to Firebase, Put on User Profile
 52. Add Typing Collection to Track When Other Users Typing
 53. Add Typing Component / Animation, Display in Messages
+54. Add Typing Listeners to See When Other Users Typing
+
 
