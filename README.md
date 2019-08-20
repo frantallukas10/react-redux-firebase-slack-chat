@@ -51,3 +51,5 @@
 49. Create Change Avatar Modal
 50. Crop Uploaded Image with AvatarEditor
 51. Upload Cropped Image to Firebase, Put on User Profile
+52. Add Typing Collection to Track When Other Users Typing
+
