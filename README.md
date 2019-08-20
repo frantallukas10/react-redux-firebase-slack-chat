@@ -59,3 +59,4 @@
 57. Show Message Skeleton when Messages Loading
 58. Create Key Combo Shortcuts to Send Messages
 59. Remove Listeners upon Component Unmount
+60. Write Firebase Storage Rules for Media Files
