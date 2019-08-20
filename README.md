@@ -49,3 +49,4 @@
 47. Attach Chosen Colors to User Data
 48. Display Saved User Colors as Icons, Change App Colors on Click
 49. Create Change Avatar Modal
+50. Crop Uploaded Image with AvatarEditor
