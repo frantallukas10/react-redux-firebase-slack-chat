@@ -50,3 +50,4 @@
 48. Display Saved User Colors as Icons, Change App Colors on Click
 49. Create Change Avatar Modal
 50. Crop Uploaded Image with AvatarEditor
+51. Upload Cropped Image to Firebase, Put on User Profile
