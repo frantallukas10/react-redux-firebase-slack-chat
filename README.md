@@ -57,5 +57,4 @@
 55. Emoji Picker to Add Emojis to Messages
 56. Automatic Scroll to Bottom upon New Message
 57. Show Message Skeleton when Messages Loading
-
-
+58. Create Key Combo Shortcuts to Send Messages
