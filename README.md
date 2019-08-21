@@ -61,3 +61,10 @@
 59. Remove Listeners upon Component Unmount
 60. Write Firebase Storage Rules for Media Files
 61. Write Database Rules for App Data
+62. Deploying our App with Firebase Tools
+Install globaly package `firbase-tools` with command:
+```
+npm i firebase-tools -g
+```
+
+this aplication is working on url: `https://react-slack-c690e.firebaseapp.com`
